@@ -14,7 +14,7 @@ df = pd.read_csv("exchange_rates.csv")
 
 weekdays_df = weekday_metrics(df)
 
-weekday_order = ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes"]
+weekday_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
 weekdays_df["day_name"] = pd.Categorical(
     weekdays_df["day_name"],
     categories=weekday_order,
