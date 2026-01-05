@@ -55,6 +55,6 @@ st.markdown("""
 st.markdown("""""")
 st.markdown("""""")
 st.markdown("""
-**Conclusión**
+### Conclusión
 Los retornos promedio por día de la semana son pequeños y, salvo el jueves, estadísticamente indistinguibles del ruido. Lunes, martes, miércoles y viernes presentan estadísticos t bajos, lo que indica ausencia de un sesgo sistemático. El jueves destaca con un retorno medio positivo y un t stat superior a 2, sugiriendo un efecto positivo históricamente detectable. No obstante, dada la volatilidad observada, el resultado debe interpretarse como descriptivo y no predictivo.**
 """)
